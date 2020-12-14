@@ -515,43 +515,43 @@ void initRender(OpenGL *ogl)
 
 	
 
-	 //так как гит игнорит модели *.obj файлы, так как они совпадают по расширению с объектными файлами, 
-	 // создающимис€ во врем€ компил€ции, € переименовал модели в *.obj_m
-	//loadModel("models\\plane.obj", &objModel);
+	 //так как гит игнорит модели *obj_m файлы, так как они совпадают по расширению с объектными файлами, 
+	 // создающимис€ во врем€ компил€ции, € переименовал модели в *obj_m_m
+	//loadModel("models\\planeobj_m", &objModel);
 
 
 	glActiveTexture(GL_TEXTURE0);
-	loadModel("models\\Spaceship.obj", &monkey);
+	loadModel("models\\Spaceshipobj_m", &monkey);
 	monkeyTex.loadTextureFromFile("textures//Ship_Base_Color.bmp");
 	monkeyTex.bindTexture();
 
 	glActiveTexture(GL_TEXTURE0);
-	loadModel("models\\cow.obj", &cow);
+	loadModel("models\\cowobj_m", &cow);
 	cowTex.loadTextureFromFile("textures//cow.bmp");
 	cowTex.bindTexture();
 
 	glActiveTexture(GL_TEXTURE0);
-	loadModel("models\\cow1.obj", &cow1);
+	loadModel("models\\cow1obj_m", &cow1);
 	cow1Tex.loadTextureFromFile("textures//cow.bmp");
 	cow1Tex.bindTexture();
 
 	glActiveTexture(GL_TEXTURE0);
-	loadModel("models\\cow2.obj", &cow2);
+	loadModel("models\\cow2obj_m", &cow2);
 	cow2Tex.loadTextureFromFile("textures//cow.bmp");
 	cow2Tex.bindTexture();
 
 	glActiveTexture(GL_TEXTURE0);
-	loadModel("models\\plosk.obj", &plosk);
+	loadModel("models\\ploskobj_m", &plosk);
 	ploskTex.loadTextureFromFile("textures//plosk.bmp");
 	ploskTex.bindTexture();
 
 	glActiveTexture(GL_TEXTURE0);
-	loadModel("models\\dom.obj", &dom);
+	loadModel("models\\domobj_m", &dom);
 	domTex.loadTextureFromFile("textures//dom.bmp");
 	domTex.bindTexture();
 
 	glActiveTexture(GL_TEXTURE0);
-	loadModel("models\\dom2.obj", &dom2);
+	loadModel("models\\dom2obj_m", &dom2);
 	dom2Tex.loadTextureFromFile("textures//dom2.bmp");
 	dom2Tex.bindTexture();
 
